@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Alte DIN';
+    src: url('../fonts/din1451alt_g-webfont.woff2') format('woff2'),
+    url('../fonts/din1451alt_g-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Alte DIN';
+    src: url('../fonts/din1451alt-webfont.woff2') format('woff2'),
+    url('../fonts/din1451alt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#nav-logo {
+    max-height: 8%;
+    max-width: 8%;
+}
