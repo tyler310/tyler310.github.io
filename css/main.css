@@ -28,3 +28,8 @@
 .intro-text .divider {
     border-color: #D1DBA5;
 }
+
+br {
+    display: block;
+    margin: 100px 0;
+}
