@@ -1,10 +1,13 @@
+body {
+    background-color: #3A3434;
+}
 @font-face {
     font-family: 'Alte DIN';
     src: url('../fonts/din1451alt_g-webfont.woff2') format('woff2'),
     url('../fonts/din1451alt_g-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-
+    font-style: normal
+;
 }
 
 @font-face {
@@ -15,7 +18,42 @@
     font-style: normal;
 }
 
-#nav-logo {
-    max-height: 8%;
-    max-width: 8%;
+#logo * {
+  -webkit-transition: fill 0.3s ease-out;
+  -moz-transition: fill 0.3s ease-out;
+  -o-transition: fill 0.3s ease-out;
+  transition: fill 0.3s ease-out;
+}
+#logoRight {
+  fill: #3DACA8;
+}
+
+#logoLeft {
+  fill: #A2D4AB;
+}
+
+#logoTop {
+  fill: #D1DBA5;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3DABA7;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn:focus {
+    outline: none !important;
+    color: #ffffff;
 }
